@@ -63,11 +63,3 @@ A schema to Graph Extraction package for tabular datasets
 
     
     
-For feature encoding to be performed the following manual preprocessing tasks are required for each feature type:
-- Basic data cleaning (e.g. checking for null, removing duplicates)
-- Maintaining indexing and shape consistency 
-- Special considerations for embeddings
-  - Embedding quality check
-  - Determining computational and memory cost 
-  - Decisions on depth of generated embeddings 
-- Query and task specific data engineering tasks which are resolved without trial and error 
