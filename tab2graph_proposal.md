@@ -1,4 +1,3 @@
-
 # An interpretable AI Scientist for Drug Repurposing  
 *A tabular-to-graph reasoning layer for multimodal datasets*
 
@@ -6,13 +5,14 @@
 
 ## TL;DR
 
-This project propose a **Python package** that converts large, heterogeneous tabular datasets (Parquet/CSV/Pandas/Polars) into **typed, temporal knowledge graphs**, enabling a **reasoning agent (LLM + GNN)** to:
+This project proposes a **Python package** that converts large, heterogeneous tabular datasets (Parquet/CSV/Pandas/Polars) into **typed, temporal knowledge graphs**, enabling a **reasoning agent (LLM + GNN)** to:
 
 - Run **automated reasoning experiments** (e.g. “What if Drug X is repurposed for Disease Y in patients with mutation Z?”).
 - Perform **hypothesis testing** against real-world temporal data (approvals, trial outcomes, safety events).
 - Generalize beyond medicine to **any structured dataset** that can be represented as a graph.
 
-The flagship use case is an **AI scientist for drug repurposing and clinical trial reasoning**, but the core software layer is **domain-agnostic**.
+The flagship use case that will be tested during the development of this package is an Automated Biomedical Reasoning agent.
+Primarily we want to see impact on interpretability of AI models when they are trained on dynamic graphs generated from heterogenous and multimodal datasets to solve link predition and node classification tasks. Therefore the core software layer of this package will strive to remain **domain-agnostic**. 
 
 ---
 
