@@ -35,7 +35,7 @@ Regulators (e.g. FDA/EMA) already rely on prior evidence (trials, safety data, p
 
 ## Core Concept
 
-At the core, is a **tabular-to-graph reasoning layer**:
+At the core, is a **tabular-to-graph learning/reasoning layer**:
 
 > A Python package that takes large tabular datasets (Parquet/CSV/Pandas/Polars),  
 > builds **typed, temporal graphs**,  
