@@ -12,7 +12,7 @@ This project proposes a **Python package** that converts large, heterogeneous ta
 - Generalize beyond medicine to **any structured dataset** that can be represented as a graph.
 
 The flagship use case that will be tested during the development of this package is an Automated Biomedical Reasoning agent.
-Primarily we want to see impact on interpretability of AI models when they are trained on dynamic graphs generated from heterogenous and multimodal datasets to solve link predition and node classification tasks. Therefore the core software layer of this package will strive to remain **domain-agnostic**. 
+The primary research objective is to evaluate how interpretability emerges in AI systems that combine language models with topological inference models (e.g., GNNs) when they are trained on dynamic, typed graphs generated from heterogeneous and multimodal datasets. To support this, the core software layer of the proposed package is designed to remain domain-agnostic, enabling consistent graph construction across diverse data sources and application areas.
 
 ---
 
