@@ -1,5 +1,4 @@
-# An interpretable AI Scientist for Drug Repurposing  
-*A tabular-to-graph reasoning layer for multimodal datasets*
+# A tabular-to-graph reasoning layer for multimodal datasets
 
 ---
 
